@@ -263,7 +263,7 @@
   padding-left: 0%;
   margin: 68px auto 0;
 }
-.staff_picks_background {
+.staff__cards {
   background-position: 0%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -275,9 +275,10 @@
   padding: 32px 40px 20px 32px;
   box-sizing: border-box;
   flex-wrap: wrap;
-  padding: 360px 420px;
+  padding: 40px;
   max-width: 760px;
   margin-top: 68px;
+  size: 360px 420px;
 }
 
 .card__content {
