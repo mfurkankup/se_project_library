@@ -278,7 +278,7 @@
   padding: 40px;
   max-width: 760px;
   margin-top: 68px;
-  size: 360px 420px;
+  border-width: 360px 420px;
 }
 
 .card__content {
