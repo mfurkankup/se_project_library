@@ -267,6 +267,10 @@
   background-position: 0%;
   background-repeat: no-repeat;
   background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 760px;
+  gap: 40px;
 }
 
 .card {
