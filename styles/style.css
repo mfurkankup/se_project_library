@@ -97,6 +97,7 @@
   align-items: start;
   justify-content: space-between;
   box-sizing: border-box;
+  background-color: #fff;
 }
 .events:hover {
   color: #1f69c9;
@@ -190,26 +191,36 @@
 .person_name_feynman {
   top: -30px;
   left: 319px;
+  width: 150px;
+  height: 200px;
 }
 
 .person_name_burbidge {
   top: 96px;
   right: 125px;
+  width: 100px;
+  height: 150px;
 }
 
 .person_name_cannon {
   bottom: 18px;
   right: 216px;
+  width: 100px;
+  height: 150px;
 }
 
 .person_name_mitchell {
   bottom: 82px;
   left: 142px;
+  width: 80px;
+  height: 150px;
 }
 
 .person_name_tarter {
   top: 79px;
   left: 159px;
+  width: 100px;
+  height: 150px;
 }
 
 .person__image {
@@ -235,6 +246,8 @@
 }
 .staff {
   padding: 100px 0 140px;
+  background-image: url(/images/staff_picks_background.jpg);
+  background-position: center;
 }
 
 .staff__title {
@@ -271,6 +284,7 @@
   flex-wrap: wrap;
   max-width: 760px;
   gap: 40px;
+  margin: auto;
 }
 
 .card {
@@ -332,11 +346,11 @@
   list-style-type: none;
   padding: 0;
   margin: 100px 0 0;
-  row-gap: 40px;
   flex-direction: row;
   justify-content: center;
   padding: 0;
-  flex-basis: 220px;
+  display: flex;
+  flex-basis: 40px;
 }
 
 .step {
@@ -368,6 +382,11 @@
   overflow: hidden;
   position: relative;
   box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  z-index: 1;
 }
 
 .about__title {
@@ -377,7 +396,7 @@
   font-weight: 500;
   z-index: 1;
   max-width: 154px;
-  row-gap: 120px;
+  margin-right: 120px;
 }
 
 .about__content {
@@ -400,7 +419,7 @@
   position: absolute;
   top: -121px;
   left: -91px;
-  z-index: 1;
+  z-index: -1;
 }
 
 .footer {
@@ -410,27 +429,27 @@
 }
 
 .footer__columns {
+  display: flex;
   flex-direction: row;
   min-width: 224px;
-  top: 60px;
+  padding-top: 60px;
 }
 
 .footer__column_content_hours {
   font-size: 16px;
   line-height: 20px;
   margin-left: auto;
-  padding-top: 60px;
-  padding-right: 202px;
-  column-gap: 16px;
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: column;
+  margin-right: 100px;
 }
 
 .footer__column_content_social {
-  margin-left: auto;
   margin-right: 102px;
   column-gap: 16px;
   display: flex;
+  flex-direction: column;
+  justify-content: right;
 }
 
 .footer__logo {
@@ -438,6 +457,8 @@
   width: 116px;
   padding-left: 80px;
   padding-top: 60px;
+  margin-bottom: 108px;
+  margin-right: auto;
 }
 
 .footer__list {
@@ -473,7 +494,6 @@
 }
 
 .footer__copyright {
-  padding-left: 80px;
-  padding-top: 108px;
-  padding-bottom: 60px;
+  display: flex;
+  align-items: flex-end;
 }
