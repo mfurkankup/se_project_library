@@ -49,6 +49,9 @@
   line-height: 76px;
   font-weight: 500;
   margin-top: 150px;
+  margin-bottom: 0;
+  margin-right: 0;
+  margin-left: 0;
 }
 
 .header__description {
@@ -193,6 +196,8 @@
   left: 319px;
   width: 150px;
   height: 200px;
+  margin: 0;
+  padding: 0;
 }
 
 .person_name_burbidge {
@@ -200,6 +205,8 @@
   right: 125px;
   width: 100px;
   height: 150px;
+  margin: 0;
+  padding: 0;
 }
 
 .person_name_cannon {
@@ -207,6 +214,8 @@
   right: 216px;
   width: 100px;
   height: 150px;
+  margin: 0;
+  padding: 0;
 }
 
 .person_name_mitchell {
@@ -214,6 +223,8 @@
   left: 142px;
   width: 80px;
   height: 150px;
+  margin: 0;
+  padding: 0;
 }
 
 .person_name_tarter {
@@ -221,6 +232,8 @@
   left: 159px;
   width: 100px;
   height: 150px;
+  margin: 0;
+  padding: 0;
 }
 
 .person__image {
@@ -243,6 +256,7 @@
   text-align: center;
   font-size: 14px;
   margin: 0;
+  padding: 0;
 }
 .staff {
   padding: 100px 0 140px;
@@ -263,6 +277,7 @@
   line-height: 30px;
   font-weight: 400;
   margin: 0;
+  padding: 0;
 }
 
 .staff__picks {
@@ -285,6 +300,7 @@
   max-width: 760px;
   gap: 40px;
   margin: auto;
+  padding: 0;
 }
 
 .card {
@@ -298,6 +314,7 @@
   padding-top: 68px;
   width: 360px;
   height: 420px;
+  margin: 0;
 }
 
 .card__content {
@@ -312,12 +329,14 @@
   line-height: 30px;
   font-weight: 700;
   margin: 0;
+  padding: 0;
 }
 
 .card__text {
   margin: 20px 0 0;
   font-size: 16px;
   line-height: 24px;
+  padding: 0;
 }
 
 .card__footer {
@@ -326,11 +345,13 @@
   line-height: 20px;
   color: #838383;
   margin-top: auto;
+  padding: 0;
 }
 
 .membership {
   padding: 100px 0 140px;
   background-color: #f2f2f2;
+  margin: 0;
 }
 
 .membership__title {
@@ -340,6 +361,7 @@
   font-size: 44px;
   font-weight: 500;
   line-height: 52px;
+  padding: 0;
 }
 
 .membership__steps {
@@ -356,6 +378,8 @@
 .step {
   row-gap: 40px;
   width: 220px;
+  margin: 0;
+  padding: 0;
 }
 
 .step__title {
@@ -365,14 +389,19 @@
   font-weight: 700;
   display: flex;
   align-items: center;
+  padding: 0;
 }
 
 .step__icon {
   margin-left: 20px;
+  margin-right: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .step__description {
   margin: 10px 0 0;
+  padding: 0;
 }
 
 .about {
@@ -387,6 +416,7 @@
   align-items: center;
   position: relative;
   z-index: 1;
+  margin: 0;
 }
 
 .about__title {
